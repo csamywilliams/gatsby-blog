@@ -20,14 +20,15 @@ const Feed = ({ edges, allCategories }) =>
     } = edge
     let {
       node: {
-        frontmatter: { title }
+        frontmatter: { title, description }
       }
     } = edge
-    const featured = priority > 0
+    const featured = 1
     const imgFound = html && html.match(/<img\s+[^>]*?src=("|')([^"']+)/i)
     const imgSrc = imgFound && imgFound[2]
     const categoryColor = getCategoryColor({ allCategories, category })
     let externalLink = null
+    console.log(description)
 
     const isTitleLinkPattern = /(?=.*\[)(?=.*\])(?=.*\()(?=.*\))/i
     if (isTitleLinkPattern.test(title)) {
@@ -38,11 +39,6 @@ const Feed = ({ edges, allCategories }) =>
 
     return (
       <div className={`post ${featured && 'post-featured'} relative`} key={slug}>
-        {featured && (
-          <div className="ribbon">
-            <span>featured</span>
-          </div>
-        )}
         <Row>
           {imgSrc && (
             <Col xs={24} sm={24} md={4} lg={4} xl={4}>
@@ -92,8 +88,9 @@ const Feed = ({ edges, allCategories }) =>
                   <SelectOutlined className="text-3xl" /> {title}
                 </a>
               ) : (
-                <Link to={slug} className="text-black">
+                <Link to={slug} className="text-3xl text-black">
                   {title}
+                  <p className="text-lg">{description}</p>
                 </Link>
               )}
             </h1>
