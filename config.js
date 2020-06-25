@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Frontend Developer. Swansea Cats Protection Volunteer. Software Tester',
   copyright: '© 2020 | Neath, Wales',
   disqusShortname: 'csamywilliams',
-  postsPerPage: 2,
+  postsPerPage: 10,
   googleAnalyticsId: '',
   menu: [
     {

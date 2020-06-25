@@ -42,12 +42,30 @@
     }
   ],
   "pitchLine": "My passions are — front end web-development, unit testing and software testing.",
-  "topTech": ["react", "graphql", "gatsby"],
+  "topTech": ["react", "vue.js", "jest", "react-testing-library", "cypress", "gatsby"],
   "tech": {
     "react": {
       "name": "React",
       "logo": "react.svg",
       "website": "https://github.com/facebook/react",
+      "displayInTopList": true
+    },
+    "cypress": {
+      "name": "Cypress",
+      "logo": "cypress.png",
+      "website": "https://www.cypress.io/",
+      "displayInTopList": true
+    },
+    "jest": {
+      "name": "Jest",
+      "logo": "jest.png",
+      "website": "https://jestjs.io/",
+      "displayInTopList": true
+    },
+    "react-testing-library": {
+      "name": "React Testing Library",
+      "logo": "octopus.png",
+      "website": "https://testing-library.com/",
       "displayInTopList": true
     },
     "graphql": {
@@ -69,7 +87,7 @@
       "displayInTopList": false
     },
     "vue.js": {
-      "name": "Vue.js",
+      "name": "Vue",
       "logo": "vuejs.png",
       "website": "https://vuejs.org/",
       "displayInTopList": true
