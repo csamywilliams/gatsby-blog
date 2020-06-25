@@ -116,6 +116,20 @@ img {
   padding: 1rem;
 }
 
+.navigation {
+  font-size: 1.4rem;
+  border: 1px solid #863371;
+  color: #fff;
+  background-color: #863371;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 1rem;
+}
+
+.navigation:hover {
+  color: #f1f1f1;
+}
+
 @media print {
   body {
     background: #fff;

@@ -8,14 +8,14 @@ const Pagination = ({ prevPagePath, nextPagePath, hasNextPage, hasPrevPage }) =>
     <Row>
       <Col span={12}>
         {hasPrevPage && (
-          <Link rel="prev" to={prevPagePath} className="">
+          <Link rel="prev" to={prevPagePath} className="navigation">
             {PAGINATION.PREV_PAGE}
           </Link>
         )}
       </Col>
       <Col span={12} className="text-right">
         {hasNextPage && (
-          <Link rel="next" to={nextPagePath} className="">
+          <Link rel="next" to={nextPagePath} className="navigation">
             {PAGINATION.NEXT_PAGE}
           </Link>
         )}

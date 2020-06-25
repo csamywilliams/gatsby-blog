@@ -1,14 +1,14 @@
 [
   {
-    "name": "Memory Game - Farm Pairs project",
-    "logo": "/logos/as.svg",
+    "name": "Memory Pairs Game project",
+    "logo": "/tech/vuejs.png",
     "description": "Vue.js memory pairs game",
-    "link": "/posts/farm-vuejs-memory-game"
+    "link": "https://github.com/csamywilliams/Memory-Game-Pairs"
   },
   {
-    "name": "",
-    "logo": "/logos/trello-bookmark.svg",
-    "description": "Store your bookmarks as Trello Cards.",
-    "link": "/posts/react-js"
+    "name": "Top Trumps Game project",
+    "logo": "/tech/react.svg",
+    "description": "Work in Progress top trumps game built in React",
+    "link": "https://github.com/csamywilliams/toptrumps"
   }
 ]

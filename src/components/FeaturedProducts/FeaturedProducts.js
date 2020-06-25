@@ -4,7 +4,12 @@ import data from './data.json'
 
 const FeaturedProducts = () => {
   return (
-    <Row className="mb-2" type="flex">
+    <Row
+      className="mb-2"
+      type="flex"
+      className="bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(/featured-products-bg/1.jpg)` }}
+    >
       {data.map((product, i) => (
         <Col
           xs={24}
@@ -14,7 +19,6 @@ const FeaturedProducts = () => {
           xl={12}
           key={product.name}
           className="bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(/featured-products-bg/${i + 1}.jpg)` }}
         >
           <Card
             className="featured-product h-full rounded-none"
@@ -29,8 +33,8 @@ const FeaturedProducts = () => {
                 <h3 className="mb-1 text-white">{product.name}</h3>
                 <p className="mb-0">
                   {product.description}{' '}
-                  <a href={product.link} className="block text-white">
-                    Read more...
+                  <a href={product.link} target="_blank" className="block text-white">
+                    View source code...
                   </a>
                 </p>
               </Col>

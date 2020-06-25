@@ -29,10 +29,10 @@ module.exports = {
       // https://github.com/gatsbyjs/gatsby/issues/2392
       github: 'csamywilliams',
       twitter: 'csamywilliams',
-      linkedin: 'csamywilliams',
+      linkedin: 'amy-williams-72a431146',
       telegram: '',
       instagram: 'csamywilliams',
-      facebook: 'csamywilliams',
+      facebook: 'amy.williams.cs',
       email: 'csamywilliams@gmail.com',
       rss: ''
     }
