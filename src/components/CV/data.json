@@ -1,0 +1,250 @@
+{
+  "header": {
+    "name": "Amy Williams",
+    "position": "Frontend Web Developer",
+    "img": {
+      "src": "/photo.jpg",
+      "alt": "Amy Williams"
+    },
+    "location": "Neath, Wales",
+    "contacts": [
+      {
+        "type": "github",
+        "link": "https://github.com/csamywilliams",
+        "linkName": "csamywilliams"
+      }
+    ]
+  },
+  "experiments": [
+    {
+      "name": "Vue.js Memory Game Pairs",
+      "locationIcon": "",
+      "description": "Vue.js Memory Game Pairs",
+      "builtWith": ["vue.js"],
+      "link": "https://github.com/csamywilliams/Memory-Game-Pairs",
+      "sourceCode": "https://github.com/csamywilliams/Memory-Game-Pairs"
+    },
+    {
+      "name": "React Top Trumps Game",
+      "locationIcon": "",
+      "description": "A react Top Trumps game - Work in Progress",
+      "builtWith": ["react"],
+      "link": "https://github.com/csamywilliams/toptrumps",
+      "sourceCode": "https://github.com/csamywilliams/toptrumps"
+    },
+    {
+      "name": "Blog",
+      "locationIcon": "",
+      "description": "Read about productivity and development",
+      "builtWith": ["gatsby", "react", "netlify"],
+      "link": "https://dospolov.com",
+      "sourceCode": "https://github.com/dospolov/gatsby-starter-blog-and-cv"
+    }
+  ],
+  "pitchLine": "My passions are — front end web-development, unit testing and software testing.",
+  "topTech": ["react", "graphql", "gatsby"],
+  "tech": {
+    "react": {
+      "name": "React",
+      "logo": "react.svg",
+      "website": "https://github.com/facebook/react",
+      "displayInTopList": true
+    },
+    "graphql": {
+      "name": "GraphQL",
+      "logo": "graphql.svg",
+      "website": "https://graphql.org/",
+      "displayInTopList": true
+    },
+    "gatsby": {
+      "name": "Gatsby",
+      "logo": "gatsby.svg",
+      "website": "https://www.gatsbyjs.org/",
+      "displayInTopList": true
+    },
+    "netlify": {
+      "name": "Netlify",
+      "logo": "netlify.svg",
+      "website": "https://www.netlify.com/",
+      "displayInTopList": false
+    },
+    "vue.js": {
+      "name": "Vue.js",
+      "logo": "vuejs.png",
+      "website": "https://vuejs.org/",
+      "displayInTopList": true
+    }
+  },
+  "skills": {
+    "soft": {
+      "featured": [
+        "Team collaboration",
+        "Focus on business needs",
+        "Mentoring",
+        "Communication",
+        "Integrity",
+        "Honesty"
+      ],
+      "other": [
+        "Critical Thinking",
+        "Problem Solving",
+        "Task Management",
+        "Research and Development",
+        "Requirements Analysis"
+      ]
+    },
+    "hard": {
+      "featured": ["JavaScript", "ES5 / ES6 / ES2017", "CSS", "HTML", "React", "Vue"],
+      "other": [
+        "BEM",
+        "Atomic Design",
+        "GIT",
+        "D3.js",
+        "HTML 5",
+        "ITCSS",
+        "Jest",
+        "JIRA",
+        "SASS",
+        "React-testing-library",
+        "Enzyme.js",
+        "Styled Components",
+        "Webpack"
+      ]
+    }
+  },
+  "experience": [
+    {
+      "company": {
+        "name": "Vizolution",
+        "logoHeight": 50,
+        "logo": "vizolution.png",
+        "period": "November 2016 - now"
+      },
+      "projects": [
+        {
+          "name": "Vizolution",
+          "role": "Frontend Web Developer and Test Analyst",
+          "description": "Vizolution helps enterprises turn complex customer journeys into effortless experiences, by replicating face to face interactions in remote channels.",
+          "stack": {
+            "me": ["React JS", "Webpack", "Vue.js", "Vanilla JS", "HTML", "CSS"],
+            "all": [
+              "BEM",
+              "ITCSS",
+              "Styled Components",
+              "React-testing-library",
+              "Enzyme",
+              "Jest"
+            ]
+          },
+          "achievements": [
+            "Front-end Developer and Test Analyst at Vizolution in the Research and Development department",
+            "Develop React components for bespoke platform",
+            "Conducts code review and knowledge sharing",
+            "Part of agile team using Scrum framework",
+            "Assist with support queries",
+            "Manual and automated testing using C#, Selenium",
+            "Unit testing using Jest, Enzyme and React-testing-library",
+            "Mentoring Junior developers",
+            "Presenting in chapter meetings and end of sprint demos"
+          ]
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "The Optic Shop - Online",
+        "logoHeight": 30,
+        "logo": "the-optic-shop.png",
+        "period": "July 2015 - October 2016"
+      },
+      "projects": [
+        {
+          "name": "The Optic Shop - Online",
+          "role": "Magento E-commerce developer",
+          "description": "Worked on Magento E-commerce platform, Wordpress site and various other technical duties",
+          "stack": {
+            "me": ["Magento", "PHP", "JavaScript"],
+            "all": ["CSS", "HTML", "Social Media"]
+          },
+          "achievements": [
+            "Customised Magento plugins for specific company needs",
+            "Advertised on Social media platforms",
+            "Handled real time response queries on live chat"
+          ]
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "Brookfield Utilities",
+        "logoHeight": 40,
+        "logo": "brookfieldutilities.jpg",
+        "period": "September 2014 - July 2015"
+      },
+      "projects": [
+        {
+          "name": "Brookfield Utilities",
+          "role": "Junior Web Developer",
+          "description": "Maintained and updated existing utility based projects using PHP, HTML, JavaScript and CSS.",
+          "stack": {
+            "me": ["PHP", "HTML", "JavaScript", "CSS"]
+          }
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "Living Data Labs",
+        "period": "January 2013 - June 2014",
+        "logoHeight": 50,
+        "logo": "livingdatalabs.jpg"
+      },
+      "projects": [
+        {
+          "name": "Living Data Labs",
+          "role": "Junior Android Developer",
+          "description": "Developed Android applications for the tourism industry.",
+          "stack": {
+            "me": ["Android", "Augmented Reality"]
+          },
+          "achievements": [
+            "Developed several Android apps available on Google Play store - Wales Coast App, Follow the White Rabbit, Portmeirion",
+            "Used Metaio augmented reality SDK to create unique tourism based apps ",
+            "Onsite testing at tourist locations"
+          ]
+        }
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "place": "Swansea Cats Protection volunteer",
+      "logo": "scp.png",
+      "logoHeight": 50,
+      "period": "2018 - Now",
+      "description": "I provide an administration abilities for Swansea Cats Protection. I'm also responsible for Swansea Cats Protection Brynmill Charity shop Facebook advertising"
+    },
+    {
+      "place": "Appening Rhondda - Girls in Tech volunteer",
+      "logo": "appening-rhondda.jpg",
+      "logoHeight": 50,
+      "period": "February 2020",
+      "description": "Spent weekend mentoring young girls in Rhondda Valley to learn how to build a basic web project using HTML, CSS and JavaScript"
+    },
+    {
+      "place": "DDD Wales collaborator",
+      "logo": "ddd-wales.png",
+      "logoHeight": 50,
+      "period": "November 2017",
+      "description": "Organised and held first DDD Wales collaborator conference. One day Saturday event with various talks relating to tech sector"
+    }
+  ],
+  "education": [
+    {
+      "place": "Swansea University",
+      "period": "2010 - 2013",
+      "degree": "Bachelor's Degree in Computer Science"
+    }
+  ],
+  "footer": "csamywilliams.co.uk © 2020"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Memory Game - Farm Pairs project",
+    "logo": "/logos/as.svg",
+    "description": "Vue.js memory pairs game",
+    "link": "/posts/farm-vuejs-memory-game"
+  },
+  {
+    "name": "",
+    "logo": "/logos/trello-bookmark.svg",
+    "description": "Store your bookmarks as Trello Cards.",
+    "link": "/posts/react-js"
+  }
+]
