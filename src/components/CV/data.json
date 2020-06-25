@@ -37,8 +37,8 @@
       "locationIcon": "",
       "description": "Read about productivity and development",
       "builtWith": ["gatsby", "react", "netlify"],
-      "link": "https://dospolov.com",
-      "sourceCode": "https://github.com/dospolov/gatsby-starter-blog-and-cv"
+      "link": "https://github.com/csamywilliams/gatsby-blog",
+      "sourceCode": "https://github.com/csamywilliams/gatsby-blog"
     }
   ],
   "pitchLine": "My passions are — front end web-development, unit testing and software testing.",
