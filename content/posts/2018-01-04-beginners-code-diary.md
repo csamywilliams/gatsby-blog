@@ -1,7 +1,7 @@
 ---
 template: post
 title: Beginners Code diary
-slug: /posts/beginners-code-diary.
+slug: /posts/beginners-code-diary
 draft: false
 priority: 0
 date: 2018-01-04T00:46:37.121Z
@@ -37,7 +37,7 @@ In my opinion knowledge is power. The more knowledge, the greater responsibility
 
 ## What you liked
 
-You may think this is similar to what you learnt, and in ways they are but I think of it as a way of taking what you have learnt and applying it to your work. When writing or reviewing others code, you may see it written in a slightly different manner and think I want to use that next time. This is what you like, and what you actively try to incorporate in your next piece of work. For example: ES6 Arrow functions, I learnt about it in a Lunch &Learn session in work of a colleague <a target="_blank" src="http://lyndseyb.co.uk/">Lyndsey Browning</a>. I liked it that much, that I wrote it down and then used it in my next project.
+You may think this is similar to what you learnt, and in ways they are but I think of it as a way of taking what you have learnt and applying it to your work. When writing or reviewing others code, you may see it written in a slightly different manner and think I want to use that next time. This is what you like, and what you actively try to incorporate in your next piece of work. For example: ES6 Arrow functions, I learnt about it in a Lunch & Learn session in work of a colleague <a target="_blank" src="http://lyndseyb.co.uk/">Lyndsey Browning</a>. I liked it that much, that I wrote it down and then used it in my next project.
 
 ## What you didn't like
 
