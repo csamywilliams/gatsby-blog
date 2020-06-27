@@ -4,6 +4,7 @@ import { Layout, Tag, Divider } from 'antd'
 import Comments from './Comments'
 import Content from './Content'
 import Tags from './Tags'
+import Copyright from '../Copyright'
 import getCategoryColor from '../../utils/get-category-color'
 
 const AntContent = Layout.Content
@@ -50,6 +51,8 @@ const Post = ({ post, allCategories }) => {
       <div className="mt-10">
         <Comments postSlug={slug} postTitle={post.frontmatter.title} />
       </div>
+
+      <Copyright />
     </AntContent>
   )
 }

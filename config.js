@@ -5,7 +5,7 @@ module.exports = {
   keywords:
     'frontend developer, productivity, javascript, Amy Williams, choosy windows, browser selector',
   subtitle: 'Frontend Developer. Swansea Cats Protection Volunteer. Software Tester',
-  copyright: '© 2020 | Neath, Wales',
+  copyright: 'Neath, Wales',
   disqusShortname: 'csamywilliams',
   postsPerPage: 10,
   googleAnalyticsId: '',

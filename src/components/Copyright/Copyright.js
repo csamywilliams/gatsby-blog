@@ -3,7 +3,12 @@ import { useSiteMetadata } from '../../hooks'
 
 const Copyright = () => {
   const { copyright } = useSiteMetadata()
-  return <div className="text-center">{copyright}</div>
+  const year = new Date().getFullYear()
+  return (
+    <div className="text-center">
+      © {year} | {copyright}
+    </div>
+  )
 }
 
 export default Copyright

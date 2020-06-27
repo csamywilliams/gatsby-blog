@@ -10,7 +10,7 @@ import Volunteer from './Volunteer'
 import Education from './Education'
 import Experiments from './Experiments'
 import Recommendations from './Recommendations'
-import Footer from './Footer'
+import Copyright from '../Copyright'
 import data from './data.json'
 
 const { Content } = Layout
@@ -29,7 +29,7 @@ const CV = () => (
       {data.volunteer && <Volunteer volunteer={data.volunteer} />}
       {data.education && <Education education={data.education} />}
       {data.recommendations && <Recommendations recommendations={data.recommendations} />}
-      {data.footer && <Footer footer={data.footer} />}
+      <Copyright />
     </Content>
   </>
 )
