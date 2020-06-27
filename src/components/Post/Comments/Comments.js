@@ -10,12 +10,13 @@ const Comments = ({ postTitle, postSlug }) => {
   }
 
   return (
-    <ReactDisqusComments
-      shortname={disqusShortname}
-      identifier={postTitle}
-      title={postTitle}
-      url={url + postSlug}
-    />
+    <div></div>
+    // <ReactDisqusComments
+    //   shortname={disqusShortname}
+    //   identifier={postTitle}
+    //   title={postTitle}
+    //   url={url + postSlug}
+    // />
   )
 }
 
