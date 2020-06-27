@@ -77,7 +77,7 @@ const Feed = ({ edges, allCategories }) =>
                 {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
               </Col>
             </Row>
-            <h1 className="text-5xl mt-3 mb-0">
+            <div>
               {externalLink ? (
                 <a
                   href={externalLink}
@@ -85,16 +85,22 @@ const Feed = ({ edges, allCategories }) =>
                   rel="noopener noreferrer"
                   className="text-black"
                 >
-                  <SelectOutlined className="text-3xl" /> {title}
+                  <SelectOutlined className="text-3xl" />
+                  <h1 className="text-3xl mt-3 mb-0"> {title} </h1>
                 </a>
               ) : (
-                <Link to={slug} className="text-3xl text-black">
-                  {title}
-                  <p className="text-lg">{description}</p>
-                </Link>
+                <div>
+                  <Link to={slug} className="text-black">
+                    <h1 className="text-3xl mt-3 mb-0">{title} </h1>
+                    <p className="text-lg m-0">{description}</p>
+                  </Link>
+                  <Link to={slug} className="text-xl">
+                    Read →
+                  </Link>
+                </div>
               )}
-            </h1>
-            <p className="text-gray-500 text-right">
+            </div>
+            <p className="text-gray-500 text-right m-0">
               Posted{' '}
               <time dateTime={dayjs(date).format('MMMM D, YYYY')}>
                 {dayjs(date).fromNow()}

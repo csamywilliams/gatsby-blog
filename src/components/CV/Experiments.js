@@ -9,7 +9,7 @@ const Experiments = ({ experiments, tech }) => (
         {experiments.map((experiment, i) => (
           <Col span={8} className="pl-5" key={i}>
             <h4 className="mb-0 text-lg">
-              <a href={experiment.link}>
+              <a target="_blank" href={experiment.link}>
                 <span className="inline-block mr-3">{experiment.name}</span>
                 <img
                   src={`/logos/${experiment.locationIcon}`}
