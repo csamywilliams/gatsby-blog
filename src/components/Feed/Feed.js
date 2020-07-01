@@ -86,12 +86,12 @@ const Feed = ({ edges, allCategories }) =>
                   className="text-black"
                 >
                   <SelectOutlined className="text-3xl" />
-                  <h1 className="text-3xl mt-3 mb-0"> {title} </h1>
+                  <h3 className="text-3xl mt-3 mb-0"> {title} </h3>
                 </a>
               ) : (
                 <div>
                   <Link to={slug} className="text-black">
-                    <h1 className="text-3xl mt-3 mb-0">{title} </h1>
+                    <h3 className="text-3xl mt-3 mb-0">{title} </h3>
                     <p className="text-lg m-0">{description}</p>
                   </Link>
                   <Link to={slug} className="text-xl">
@@ -100,7 +100,7 @@ const Feed = ({ edges, allCategories }) =>
                 </div>
               )}
             </div>
-            <p className="text-gray-500 text-right m-0">
+            <p className="text-gray-600 text-right m-0">
               Posted{' '}
               <time dateTime={dayjs(date).format('MMMM D, YYYY')}>
                 {dayjs(date).fromNow()}

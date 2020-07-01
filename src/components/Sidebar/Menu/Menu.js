@@ -2,7 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const Menu = ({ menu }) => (
-  <nav className="sidebar-navigation">
+  <nav className="sidebar-navigation" aria-labelledby="links">
+    <span id="links" className="sr-only">
+      Menu
+    </span>
     <ul className="list-none pl-0">
       {menu.map(item => (
         <li className="mb-3" key={item.path}>

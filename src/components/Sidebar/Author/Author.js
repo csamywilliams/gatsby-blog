@@ -11,7 +11,7 @@ const Author = ({ author }) => (
         alt={author.name}
       />
     </Link>
-    <h2 className="text-white mt-5">{author.name}</h2>
+    <h1 className="text-white mt-5 text-4xl">{author.name}</h1>
     <p className="text-gray-300">{author.bio}</p>
   </div>
 )

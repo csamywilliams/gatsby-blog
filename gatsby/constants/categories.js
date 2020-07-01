@@ -1,6 +1,6 @@
 const CATEGORY_COLORS = [
-  'pink-600',
-  'green-600',
+  'pink-700',
+  'green-800',
   'indigo-600',
   'blue-600',
   'yellow-600',

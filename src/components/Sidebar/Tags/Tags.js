@@ -6,8 +6,10 @@ import { useTagsList } from '../../../hooks'
 const Tags = () => {
   const tags = useTagsList()
   return (
-    <nav className="mt-20">
-      <h4 className="uppercase text-gray-300">Tags</h4>
+    <nav className="mt-20" aria-labelledby="tags">
+      <h2 id="tags" className="uppercase text-gray-300 text-2xl">
+        Tags
+      </h2>
       {tags.map(tag => (
         <Link
           key={tag.fieldValue}
