@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Sidebar from '../components/Sidebar'
 import Layout from '../components/Layout'
 import Page from '../components/Page'
@@ -10,8 +11,15 @@ const NotFoundTemplate = () => {
   return (
     <Layout title={`Not Found - ${title}`} description={subtitle} keywords={keywords}>
       <Sidebar />
-      <Page title="NOT FOUND">
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <Page title="">
+        <div className="text-center">
+          <div className="text-oops text-giant">Oops!</div>
+          <p className="text-4xl">404 - Page not found</p>
+          <p className="text-xl mb-8">You just hit a snag in the road ...</p>
+          <Link to="/" className="button" activeClassName="current-page">
+            Return home
+          </Link>
+        </div>
       </Page>
     </Layout>
   )

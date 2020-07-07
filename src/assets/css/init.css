@@ -170,3 +170,29 @@ img {
     height: 15px;
   }
 }
+
+.button {
+  background-color: #b83280;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #863371;
+  color: #f1f1f1;
+}
+
+.text-giant {
+  font-size: 20rem;
+}
+
+.text-oops {
+  color: #333;
+  color: blue;
+  background: url(bg.jpg) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
